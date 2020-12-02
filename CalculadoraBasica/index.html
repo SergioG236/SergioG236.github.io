@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Basica</h1>
+    </header>
+    <nav id="contenido">
+        <h2 id="calcular"></h2>
+        <div id="botones">
+            <button id="borrar" onclick="boton('c');">C</button>
+            <div class="num">
+                <button onclick="boton('7');">7</button>
+                <button onclick="boton('8');">8</button>
+                <button onclick="boton('9');">9</button>
+                <button onclick="boton('/');">/</button>    
+            </div>
+            <div class="num">
+                <button onclick="boton('4');">4</button>
+                <button onclick="boton('5');">5</button>
+                <button onclick="boton('6');">6</button>
+                <button onclick="boton('*');">*</button>
+            </div>
+            <div class="num">
+                <button onclick="boton('1');">1</button>
+                <button onclick="boton('2');">2</button>
+                <button onclick="boton('3');">3</button>
+                <button onclick="boton('-');">-</button>
+            </div>
+            <div class="num">
+                <button onclick="boton('0');">0</button>
+                <button onclick="boton('=');" id="res">=</button>
+                <button onclick="boton('+');">+</button>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

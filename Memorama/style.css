@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin: 10px
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+nav div div{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background-color: a8dadc;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav div div:hover{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background-color: 457b9d;
+}
+
+#boton {
+    padding: 10px;
+    margin: 10px;
+}

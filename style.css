@@ -1,0 +1,171 @@
+body {
+    background-image: url('back.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#titulo {
+    font-size: 54px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.548);
+    font-weight: bolder;
+}
+
+input {
+    display: none;
+}
+
+.abierto {
+    background-color: #ffffff;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+}
+
+.abierto:before {
+    content: "";
+    background-color: #ffffff;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    position: relative;
+    top: -8px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.abierto:after {
+    content: "";
+    background-color: #ffffff;
+    width: 24px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    position: relative;
+    top: 4px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.menuAbierto {
+    width: 24px;
+    height: 20px;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.menuAbierto:hover .abierto:before {
+    top: -9px;
+}
+
+.menuAbierto:hover .abierto:after {
+    top: 5px;
+}
+
+.menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(71, 71, 71, 0.835);
+}
+
+.menu label {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.menu .contenido {
+    position: relative;
+    top: 30%;
+    font-size: 54px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -170px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.menu ul li a:hover {
+    color: #3d3c3b;
+}
+
+.menu ul li:hover {
+    background: white;
+}
+
+.efectos {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.efectos ul {
+    transform: translateY(0%);
+    transition: all 0.5s;
+}
+
+#abrirMenu:checked ~ .efectos {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+}
+
+#abrirMenu:checked ~ .efectos ul {
+    opacity: 1;
+}
+
+#abrirMenu:checked ~ .menuAbierto .abierto {
+    background-color: transparent;
+}
+
+#abrirMenu:checked ~ .menuAbierto .abierto:before {
+    content: "";
+    background-color: white;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#abrirMenu:checked ~ .menuAbierto .abierto:after {
+    content: "";
+    background-color: white;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#abrirMenu:not(:checked) ~ .efectos ul {
+    transform: translateY(-30%);
+}

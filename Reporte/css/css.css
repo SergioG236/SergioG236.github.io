@@ -1,0 +1,58 @@
+#perfil {
+    height: 20%;
+    vertical-align: middle;
+}
+
+body {
+    background-color: 10002b;
+    color: white;
+}
+
+header {
+    
+}
+
+h2 {
+    background-color: 240046;
+}
+
+#resumen {
+    width: 50%;
+    border: 2px solid transparent;
+    float: left;
+    background-color: 3c096c;
+    height: 400px;
+}
+
+#intro {
+    background-color: 5a189a;
+    border: 2px solid transparent;
+    height: 400px;
+}
+
+#secretaria {
+    clear: left;
+    background-color: 240046;
+}
+
+#marco {
+    background-color: 3c096c;
+    width: 80%;
+    height: 770px;
+    border: 2px solid transparent;
+    float: left;
+}
+
+#justificacion {
+    background-color: 5a189a;
+    height: 770px;
+    border: 2px solid transparent;
+}
+
+#desarrollo {
+    background-color: 240046;
+}
+
+#conclusiones {
+    background-color: 240046;
+}

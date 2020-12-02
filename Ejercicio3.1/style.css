@@ -1,0 +1,43 @@
+body{
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: #a8dadc;
+}
+
+main{
+    background-color: #f1faee;
+    padding: 30px;
+}
+
+table{
+    border: solid 3px #1d3557;
+    background-color: #1d3557;
+    width: 100%;
+}
+
+th, td{
+    border: solid 1px #1d3557;
+    background-color: #457b9d;
+    color: #f1faee;
+}
+
+a{
+    text-align: right;
+}
+
+.etiquetas{
+    text-transform: uppercase;
+    color: #e63946;
+    width: 30%;
+    display: inline-block;
+}
+
+.controles{
+    width: 60%;
+}
+
+button{
+    text-align: right;
+    display: inline-block;
+}

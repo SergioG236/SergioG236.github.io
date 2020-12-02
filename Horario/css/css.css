@@ -1,0 +1,81 @@
+header {
+    color: black;
+    font-size: 25;
+}
+
+h1{
+    text-align: left;
+}
+
+body {
+    background-color: white;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th{
+    height: 60px;
+}
+
+table {
+    background-color: 35034f;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: larger;
+}
+
+#icono {
+    width: 150px;
+    float: left;
+}
+
+.dia{
+    width: 10%;
+    height: 10px;
+    background-color: 35034f;
+}
+
+.hora{
+    background-color: 35034f;
+}
+
+.formulacion {
+    background-color: 5b058a;
+}
+
+.lenguajes {
+    background-color: 8207c5;
+}
+
+.web {
+    background-color: a713f6;
+}
+
+.ingles {
+    background-color: bd4ef9;
+}
+
+.design {
+    background-color: f9626c;
+}
+
+.ingenieria {
+    background-color: f72634;
+}
+
+.liderazgo {
+    background-color: d90816;
+}
+
+.receso {
+    background-color: 9d0610;
+}

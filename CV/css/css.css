@@ -1,0 +1,61 @@
+body {
+    background-color: 10002b;
+    color: white;
+}
+
+#perfil{
+    height: 20%;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 70;
+}
+
+header{
+    background-color: 240046;
+}
+
+h2{
+    font-size: 50;
+    background-color: 3c096c;
+    border: 1px solid white;
+}
+
+.direccion {
+    float: left;
+    font-size: 20;
+    font-weight: bold;
+    width: 33%;
+    background-color: 5a189a;
+    border: 1px solid white;
+}
+
+p.direccion {
+    font-weight: normal;
+    border: none;
+}
+
+.descripcion {
+    clear: both;
+    font-size: 20;
+    width: 99%;
+    font-weight: bold;
+    background-color: 5a189a;
+    border: 1px solid white;
+}
+
+p.descripcion {
+    font-weight: normal;
+    border: none;
+}
+
+footer{
+    font-size: 20;
+    font-weight: bold;
+    background-color: 7b2cbf;
+}
+
+.img {
+    width: 50px;
+}
