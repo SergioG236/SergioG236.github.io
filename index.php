@@ -22,7 +22,7 @@
                     <li><a href="Reporte/index.html">Reporte Estancias</a></li>
                     <li><a href="IMC/index.html">IMC</a></li>
                     <li><a href="TablaDinamica/index.html">Tabla de Multiplicar</a></li>
-                    <li><a href="CalculadoraBasica(index.html">Calculadora</a></li>
+                    <li><a href="CalculadoraBasica/index.html">Calculadora</a></li>
                     <li><a href="FactorialYPotencia/index.html">Factorial y Potencia</a></li>
                     <li><a href="Memorama/index.html">Memorama</a></li>
                     <li><a href="Ejercicio3.1/index.php">Evidencia 3.1</a></li>
